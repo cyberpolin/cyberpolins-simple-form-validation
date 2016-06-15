@@ -1,3 +1,8 @@
 $(document).ready(function(){
-  console.log('jQuery is load');
+  //Get the action
+  $('form').on('submit', function(e){
+    e.preventDefault();
+    console.log('default prevented on: ');
+    console.log($(this));
+  });
 });
