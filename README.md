@@ -4,13 +4,29 @@
 As it said a very simple and ease to use javascript validation, the basic idea is just to import a cdn source to a script tag after jQuery
 
 ## The Latest Version
-Not a version yet...
+Version 0.0.1
 
 ## Documentation
-...
+Just add this lines in you html head...
+
+The first one is jQuery, so if you already have jQuery do not add it again
+```
+<script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+<script src="http://cyberpolin.com/static/cdn/cyberpolin-validation.js"></script>
+```
 
 ## Installation
-...
+No need yet...
+
+## To do
+
+- [ ] Add required identification
+- [ ] Check email format
+- [ ] Check number format
+- [ ] Add CSS
+- [ ] Prevent Code Injection
+- [ ] Make an actual CDN
+- [ ] Add documentation
 
 ## Licensing
 The MIT License (MIT)
