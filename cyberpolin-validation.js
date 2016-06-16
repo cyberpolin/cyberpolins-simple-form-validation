@@ -12,9 +12,15 @@ $(document).ready(function(){
 
       } else {
         $(input[i]).attr('style', 'border:1px solid green');
-
       }
-      $(input[i]).val();
+
+    }
+    var email =($('input#email'));
+    if (/[A-Za-z0-9._-]{2,}[@][A-Za-z0-9._-]{2,}[.][A-Za-z0-9._-]{2,}/i.test(email.val()) == false){
+        $(email).attr('style', 'border:1px solid red');
+        formErrors++;
+    } else {
+        $(email).attr('style', 'border:1px solid green');
     }
     console.log(formErrors);
     if (formErrors != 0) {
